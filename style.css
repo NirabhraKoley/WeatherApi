@@ -13,7 +13,7 @@ body {
   height: 100vw;
 }
 .app-main {
-  max-width: 100%;
+  max-width: fit-content;
   margin: 100px auto;
   background-color: rgba(240, 248, 255, 0.6);
   padding: 20px;
@@ -38,7 +38,8 @@ body {
   line-height: 2rem;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.6);
-  height: 50vh;
+  height: fit-content;
+  width: fit-content;
   margin-top: 10px;
 }
 .location-details {
@@ -63,11 +64,12 @@ body {
     max-width: 100%;
     max-width: fit-content;
   }
+  body{
+    height: 100vw;
+  }
   .weather-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: none;
+    max-height: fit-content;
   }
   .temp,
   .min-max,
