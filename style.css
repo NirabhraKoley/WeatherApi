@@ -70,17 +70,19 @@ body {
   .weather-body {
     display: none;
     max-height: fit-content;
+    padding-left: 50px;
+    text-align: center;
+    max-width: 100%;
   }
   .temp,
   .min-max,
   .weather,
   .city,
   .date {
-    font-size: small;
+    font-size: large;
   }
   .temp {
-    margin-top: -17px;
-    margin-bottom: -15px;
+
     text-shadow: none;
   }
 }
